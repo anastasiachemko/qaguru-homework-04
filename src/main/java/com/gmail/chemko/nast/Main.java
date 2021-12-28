@@ -23,11 +23,11 @@ public class Main {
         student.firstName = "Anastasia";
         student.lastName = "Chemko";
         student.group = 418;
-        student.receivesScholarship = true;
+        student.isReceivesScholarship = true;
 
         student.sayFirstName();
         student.sayLastName();
         student.sayGroup();
-        student.getReceivesScholarship();
+        student.printReceivesScholarship();
     }
 }

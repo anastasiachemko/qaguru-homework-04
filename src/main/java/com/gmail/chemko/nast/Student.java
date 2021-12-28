@@ -5,7 +5,7 @@ public class Student {
     String firstName;
     String lastName;
     int group;
-    boolean receivesScholarship;
+    boolean isReceivesScholarship;
 
     public void sayFirstName() {
         System.out.println("First name: " + firstName);
@@ -19,8 +19,8 @@ public class Student {
         System.out.println("Group: " + group);
     }
 
-    public void getReceivesScholarship() {
-        if (receivesScholarship) {
+    public void printReceivesScholarship() {
+        if (isReceivesScholarship) {
             System.out.println("The student receives a scholarship");
         } else {
             System.out.println("The student does not receive a scholarship");
